@@ -1,0 +1,248 @@
+body  {
+	font-family:Courier New;
+	background: #666666;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #00FF00;
+	background-color: #000000;
+	background-image: url(../img/background.jpg);
+ }
+    
+ #container {
+	width: 70em; 
+	border: 1px none #000000;
+	text-align: left; 
+	background-color: #000000;
+	border: 2px solid #151515;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	height: auto;
+  } 
+    
+#sidebar1 {
+	float: left;
+	width: 12em; 
+	background-color: #1E1E1E;
+	border: 2px solid #151515;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	height: auto;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#container #mainContent table {
+	border: 1px solid #00FF00;
+	margin: 0px;
+}
+#container #mainContent td {
+	margin: 0px;
+	padding: 5px;
+}
+#container #mainContent h1 {
+}
+
+#sidebar1 h3, #sidebar1 p {
+    	margin-left: 10px;
+    	margin-right: 10px;
+}
+    
+ #mainContent {
+	margin-top: 0px;
+	margin-right: 1.5em;
+	margin-bottom: 0;
+	margin-left: 15em;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #FFFFFF;
+	
+    } 
+ #container #mainContent h2 {
+	color: #00FF00;
+}
+ #container #mainContent h1 {
+	color: #00FF00;
+}
+ #container #mainContent table h1 {
+	color: #FFFFFF;
+	font-size: medium;
+}
+#container #mainContent p {
+	margin-left: 10px;
+}
+
+a:link {
+	color: #00FF00;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #66FF33;
+}
+a:hover {
+	text-decoration: underline;
+	color: #00FFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #00FF00;
+}
+
+
+.boton {
+	background-color:#000000;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #33ff00;
+	display:inline-block;
+	color:#2bff00;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 21px;
+	text-decoration:none;
+}.boton:hover {
+	background-color:#2bff00;
+	color:#000000;
+}.boton:active {
+	position:relative;
+	top:1px;
+}
+
+.entrada {
+	width: 700px;
+	border: thin solid #00FF00;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+	height: auto;
+}
+.entrada h3 {
+	color: #00FF00;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.entrada img {
+	border: thin solid #00FF00;
+	float: left;
+	margin-right: 10px;
+	max-width:150px;
+	min-width:150px;
+}
+
+.entradaNPC{
+	width: 700px;
+	border: thin solid #00FF00;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+	height: auto;
+}
+.entradaNPC h3 {
+	color: #00FF00;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+.entradaNPC img {
+	border: thin solid #00FF00;
+	float: left;
+	margin-right: 10px;
+	max-width:230px;
+	min-width:230px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.entradaNPC .encima {
+	overflow: hidden;
+	margin-top: 25px;
+
+}
+
+.entradaNPC .propiedades {
+	float: left;
+	padding-left: 10px;
+}
+
+.entradaNPC .cualidades {
+	float: right;
+	padding-top: 10px;
+	padding-right: 60px;
+}
+
+
+
+.entradaNPC .debajo {
+	height: auto;
+	width: auto;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	overflow: hidden;
+	margin-top: 90px;
+}
+.entradaNPC .op_armas {
+	float: left;
+	clear: none;
+	padding-left: 60px;
+}
+
+.entradaNPC .op_habilidades {
+	float: right;
+	clear: none;
+	padding-right: 60px;
+}
+
+.forma{
+	overflow: hidden;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.izquierda {
+
+	float:left;
+	padding-left:150px;
+}
+
+.derecha {
+
+	float:right;
+	padding-right:150px;
+}
+
+.form {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+input[type=text], textarea, select {
+	padding:2px;
+	border: 2px solid #00FF00;
+	background: #000000;
+	color:#66FFFF;
+	resize:none;
+}
